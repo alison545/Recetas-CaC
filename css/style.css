@@ -1,0 +1,51 @@
+/*Si es para una hoja de estilo a todo un sitio web conviene ponerlo en css las fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/*Selector por etiqueta*/
+/*h1 {
+    background: greenyellow;
+    color: green;
+}*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: Montserrat, Arial, Helvetica, sans-serif ;
+}
+
+header, nav, footer {
+    background-color: rgba(147, 101, 40, 0.638);
+    padding: 15px;
+    margin: 10px;
+}
+
+/*Selector por id
+#enlaceDeContacto {
+    color: rgb(216, 159, 85);
+}*/
+
+/*Selector por clase*/
+/*.oscuro{
+    background: #404040a2;
+    color: white;
+}*/
+
+a{
+    color: rgb(244, 182, 67);
+}
+
+body{
+    /*background-image: url("../img/fondo-cook.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    background: #fff url("../img/fondo.jpg") no-repeat fixed center;
+    background-size: cover;
+}
